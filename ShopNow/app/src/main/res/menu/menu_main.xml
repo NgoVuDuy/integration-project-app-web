@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_icon"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+<!--    <item-->
+<!--        android:id="@+id/favorite_icon"-->
+<!--        android:icon="@drawable/outline_favorite_24"-->
+<!--        app:showAsAction="always"-->
+<!--        android:title="">-->
+<!--    </item>-->
+    <item
+        android:id="@+id/cart_icon"
+        android:icon="@drawable/outline_shopping_cart_24"
+        app:showAsAction="always"
+        android:title="">
+    </item>
+
+    <item
+        android:id="@+id/introdution_item"
+        android:title="Giới thiệu"/>
+    <item
+        android:id="@+id/news_item"
+        android:title="Tin tức"/>
+</menu>

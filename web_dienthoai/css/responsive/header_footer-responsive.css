@@ -1,0 +1,225 @@
+@media (min-width: 1361px) {
+    /* CSS cho máy tính để bàn lớn */
+    main {
+        display: none;
+    }
+}
+
+@media (min-width: 1050px) and (max-width: 1360px) {
+/* CSS cho máy tính để bàn trung bình */
+    .ctn {
+        display: none;
+    }
+    .option {
+        display: none;
+    }
+    .icon-header {
+        flex: 1.5;
+    }
+    main {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1050px) {
+/* CSS cho máy tính xách tay */
+    .fa-user {
+        display: none;
+    }
+    .fa-bars {
+        display: inline !important;
+    }
+    #dropDw {
+        display: none !important;
+    }
+    .nav-header {
+        display: none;
+    }
+    header .block {
+        text-align: right;
+    }
+    header .block:first-child {
+        margin-left: 20px;
+        text-align: left;
+    }
+    main {
+        top: 55px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+/* CSS cho màn hình nhỏ, máy tính bảng */
+    .fa-user {
+        display: none;
+    }
+    .fa-bars {
+        display: inline !important;
+    }
+    #dropDw {
+        display: none !important;
+    }
+    .nav-header {
+        display: none;
+    }
+    header .block {
+        text-align: right;
+    }
+    header .block:first-child {
+        margin-left: 20px;
+        text-align: left;
+    }
+    main {
+        top: 55px;
+    }
+    .tieude h1 {
+        font-size: 40px;
+    }
+    footer {
+        font-size: 16px;
+    }
+    .logo-footer {
+        width: 20%;
+    }
+}
+@media (min-width: 461px) and (max-width: 576px) {
+/* CSS cho điện thoại di động */
+    header {
+        height: 70px;
+        justify-content: space-between;
+    }
+    .nav-header {
+        display: none;
+    }
+    .img_trangchu {
+        padding-top: 70px;
+    }
+    .logo-header {
+        flex: 1;
+    }
+    .logo-header img{
+        margin-left: 15px;
+        width: 90%;
+    }
+    .icon-header {
+        flex: 2;
+    }
+    header div i {
+        margin-right: 15px;
+        font-size: 20px !important;
+    }
+    header .block {
+        text-align: right;
+    }
+    .fa-bars {
+        display: inline !important;
+    }
+    .fa-user {
+        display: none;
+    }
+    #dropDw {
+        display: none !important;
+    }
+    .fa-magnifying-glass .form-search {
+        bottom: -80px;
+        right: -80px;
+    }
+    header div i:hover {
+        color: black;
+    }
+    .bgd_color {
+        border-radius: 4px;
+    }
+    .tieude h1 {
+        font-size: 30px;
+    }
+    .col-7 .sanpham .img_sanpham:hover i.fa-cart-arrow-down,
+    .col-6 .sanpham .img_sanpham:hover i.fa-cart-arrow-down {
+        animation: none;
+
+    }
+    .col-7 .sanpham .img_sanpham:hover i.fa-heart,
+    .col-6 .sanpham .img_sanpham:hover i.fa-heart{
+        animation: none;
+    }
+    footer {
+        font-size: 16px;
+    }
+    .logo-footer {
+        width: 25%;
+    }
+}
+
+@media (max-width: 460px) {
+    header {
+        height: 70px;
+        justify-content: space-between;
+    }
+    #dropDw {
+        display: none !important;
+    }
+    .header-img {
+        margin-top: 70px;
+    }
+    .nav-header {
+        display: none;
+    }
+    .img_trangchu {
+        padding-top: 70px;
+    }
+    .logo-header {
+        flex: 1;
+    }
+    .logo-header img{
+        margin-left: 15px;
+        width: 90%;
+    }
+    .icon-header {
+        flex: 2;
+    }
+    header div i {
+        margin-right: 15px;
+        font-size: 20px !important;
+    }
+    header .block {
+        text-align: right;
+    }
+    .fa-bars {
+        display: inline !important;
+    }
+    .fa-user {
+        display: none;
+    }
+    .fa-magnifying-glass .form-search {
+        bottom: -80px;
+        right: -80px;
+    }
+    header div i:hover {
+        color: black;
+    }
+    .bgd_color {
+        border-radius: 4px;
+    }
+    .tieude h1 {
+        font-size: 24px;
+    }
+    footer {
+        font-size: 16px;
+    }
+    .logo-footer {
+        width: 25%;
+    }
+    .form-search {
+        right: 30px;
+    }
+    .col-7 .sanpham .img_sanpham:hover i.fa-cart-arrow-down,
+    .col-6 .sanpham .img_sanpham:hover i.fa-cart-arrow-down {
+        animation: none;
+
+    }
+    .col-7 .sanpham .img_sanpham:hover i.fa-heart,
+    .col-6 .sanpham .img_sanpham:hover i.fa-heart{
+        animation: none;
+    }
+
+}
+
